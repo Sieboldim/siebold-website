@@ -1,10 +1,10 @@
 {
-  "name": "ar-website",
+  "name": "siebold-website",
   "version": "1.1.0",
   "description": "This repository contains the source code for my personal website.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/austinrovge/ar-website.git"
+    "url": "https://github.com/Sieboldim/sieboldim.github.io"
   },
   "dependencies": {
     "axios": "^0.18.0",
@@ -48,6 +48,6 @@
     "start": "PORT=80 pm2 start --interpreter babel-watch ./src/server/server.js --watch",
     "stop": "pm2 stop server.js"
   },
-  "author": "Austin Rovge",
+  "author": "Ian Siebold",
   "license": "MIT"
 }
